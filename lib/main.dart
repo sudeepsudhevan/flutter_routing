@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: ScreenOne(),
-      routes: {
-        '/screen1': (context) => ScreenOne(),
-        '/screen2': (context) => ScreenTwo(),
-      },
+      // routes: {
+      //   '/screen1': (context) => ScreenOne(),
+      //   '/screen2': (context) => ScreenTwo(),
+      // },
     );
   }
 }
